@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground">
+
+
+    <TextView
+        android:id="@+id/txtId"
+        android:text="1"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:fontFamily="sans-serif-light"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/txtMatricNumber"
+        android:layout_toEndOf="@+id/txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="For all the blessings of the light:"
+        android:textSize="18sp" />
+
+    <!--<TextView
+        android:id="@+id/txtCos"
+        android:layout_toEndOf="@+id/txtMatricNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Courses:"
+        android:textSize="18sp" />-->
+
+</RelativeLayout>
